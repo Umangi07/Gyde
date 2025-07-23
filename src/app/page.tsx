@@ -3,8 +3,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import './globals.css';
-{/* Reusable Service Card Component */}
-function ServiceCard({ image, alt, title, description, bullets }) {
+
+type ServiceCardProps = {
+  image: string;
+  alt: string;
+  title: string;
+  description: string;
+  bullets: string[];
+};
+
+function ServiceCard({ image, alt, title, description, bullets }: ServiceCardProps) {
   return (
     <div className="bg-[#1A1A1A] border border-[#D4AF37]/20 rounded-2xl p-8 flex flex-col shadow-xl">
       <Image

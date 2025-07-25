@@ -146,13 +146,93 @@ export default function Concierge() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-[#BF872D] to-[#B5802A]">
+      <section
+        style={{
+          background: "linear-gradient(90deg, #1B1501 0%, #000 100%)",
+          display: "flex",
+          height: "406px",
+          padding: "80px 0",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          flexShrink: 0,
+          alignSelf: "stretch",
+        }}
+      >
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Ready to Experience <span className="text-white">Excellence?</span></h2>
-          <p className="text-lg text-black mb-8">Our executive travel specialists are standing by to craft your bespoke journey. Every detail meticulously planned, every expectation exceeded.</p>
+          <h2
+            className="text-3xl md:text-4xl font-bold mb-4"
+            style={{
+              color: '#FFF',
+              textAlign: 'center',
+              fontFamily: '"Helvetica Neue"',
+              fontSize: '48px',
+              fontStyle: 'normal',
+              fontWeight: 400,
+              lineHeight: '48px',
+            }}
+          >
+            Ready to Experience{" "}
+            <span
+              style={{
+                color: '#BF872D',
+                fontFamily: 'Forum',
+                fontSize: '48px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '48px',
+              }}
+            >
+              Excellence?
+            </span>
+          </h2>
+          <p
+            className="text-lg mb-8"
+            style={{
+              color: '#D1D5DB',
+              textAlign: 'center',
+              fontFamily: '"Helvetica Neue"',
+              fontSize: '20px',
+              fontStyle: 'normal',
+              fontWeight: 400,
+              lineHeight: '32.5px',
+            }}
+          >
+            Our executive travel specialists are standing by to craft your bespoke journey. Every detail meticulously planned, every expectation exceeded.
+          </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#reserve" className="bg-black text-[#BF872D] font-semibold px-8 py-4 rounded-full shadow hover:bg-[#232323] transition">Start Your Journey</a>
-            <a href="#contact" className="bg-white text-black font-semibold px-8 py-4 rounded-full shadow hover:bg-[#BF872D] hover:text-black transition">Speak with a Specialist</a>
+            <a
+              href="#reserve"
+              className="font-semibold shadow hover:bg-[#232323] transition text-black"
+              style={{
+                borderRadius: "8px",
+                background: "#BF872D",
+                display: "flex",
+                minWidth: "240.86px",
+                padding: "16px 40px",
+                flexDirection: "column",
+                alignItems: "center",
+                alignSelf: "stretch",
+              }}
+            >
+              Start Your Journey
+            </a>
+            <a
+              href="#contact"
+              className=" text-white font-semibold shadow hover:bg-[#BF872D] hover:text-black transition"
+              style={{
+                borderRadius: "8px",
+                border: "1px solid #4B5563",
+                display: "flex",
+                minWidth: "280.11px",
+                padding: "17px 41px",
+                flexDirection: "column",
+                alignItems: "center",
+                alignSelf: "stretch",
+              }}
+            >
+              Speak with a Specialist
+            </a>
           </div>
         </div>
       </section>

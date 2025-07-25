@@ -106,7 +106,7 @@ export default function RootLayout({
             </Link>
           </div>
             <ul className="flex items-center space-x-8">
-              <li><Link href="#services" className="text-lg text-white hover:text-gold transition">Services</Link></li>
+              <li><Link href="/service" className="text-lg text-white hover:text-gold transition">Services</Link></li>
               <li><Link href="/about" className="text-lg text-white hover:text-gold transition">About Us</Link></li>
               <li><Link href="/contact" className="text-lg text-white hover:text-gold transition">Contact Us</Link></li>
             </ul>
